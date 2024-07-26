@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://05syxq7fclqb"]
+
+[ext_resource type="PackedScene" uid="uid://cgia66xapd4pp" path="res://hollow.tscn" id="1_xc751"]
+[ext_resource type="PackedScene" uid="uid://dh751be25ssu8" path="res://solid.tscn" id="2_mwsbc"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Hollow" parent="." instance=ExtResource("1_xc751")]
+
+[node name="Solid" parent="." instance=ExtResource("2_mwsbc")]

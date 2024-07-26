@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgia66xapd4pp"]
+
+[ext_resource type="Texture2D" uid="uid://dskva4boxyobg" path="res://circle.png" id="1_ou01o"]
+
+[node name="Hollow" type="Sprite2D"]
+scale = Vector2(0.402778, 0.402778)
+texture = ExtResource("1_ou01o")
